@@ -1,0 +1,176 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+/* Header */
+.header {
+	display: flex;
+	justify-content: space-around;
+	padding: 0 0;
+	background-color: #1F2937;
+	color: white;
+
+}
+
+.header-links {
+	display: flex;
+	gap: 10px;
+}
+
+.header-links li {
+	list-style: none;
+}
+
+.header-links li a {
+	text-decoration: none;
+	color: white;
+
+}
+
+/* Second */
+.second {
+	display: flex;
+	justify-content: center;
+	background-color: #1F2937;
+	padding: 50px 0;
+	color: white;
+}
+
+.second .leftie {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 400px;
+}
+
+.second button {
+	width: 150px;
+	height: 40px;
+	background-color: #007FFF;
+	color: white;
+	border-color: #007FFF;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.second .rightie img  {
+	width: 400px;
+	height: 200px;
+	margin: 0 20px;
+}
+
+/* Third */
+.third {
+	display: flex;
+	padding: 50px 0;
+	justify-content: center;
+}
+
+.third div {
+	display: flex;
+	flex-direction: column;
+}
+
+.third h2 {
+	margin: auto;
+}
+
+.boxes ul {
+	display: flex;
+}
+
+.boxes ul li {
+	margin: 10px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.boxes ul li img {
+	width: 200px;
+	height: 200px;
+	border: solid 5px #3882F6;
+	border-radius: 5%;
+}
+
+.boxes ul li p {
+
+	align-self: center;
+}
+
+/* Fourth */
+.fourth {
+	display: flex;
+	padding: 50px;
+	flex-direction: column;
+	background-color: #E5E7EB;
+}
+
+.fourth p {
+	align-self: center;
+/*	border: solid 1px;*/
+	width: 600px;
+	font-size: 24px;
+	font-style: italic;
+}
+
+#thor {
+	font-weight: bold;
+	text-align: right;
+	font-size: 16px;
+	font-style: revert;
+}
+
+/* Fifth */
+.fifth {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.container {
+	display: flex;
+	background-color: #2565AE;
+	color: white;
+	padding: 50px 150px;
+	border-radius: 10px;
+	justify-content: space-around;
+	gap: 100px;
+}
+
+#p1 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+}
+
+#p2 {
+	margin: 0;
+}
+
+.container .button {
+	align-self: center;
+}
+
+.container button {
+	width: 100px;
+	height: 50px;
+	background-color: #2565AE;
+	border-color: white;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+
+/* Footer */
+.footer {
+	margin: 0;
+	background-color: #1F2937;
+	color: white;
+	text-align: center;
+}
