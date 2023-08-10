@@ -60,11 +60,12 @@ body {
 	border-radius: 10px;
 	font-size: 16px;
 	font-weight: bold;
+	align-self: center;
 }
 
 .second .rightie img  {
 	width: 400px;
-	height: 200px;
+	height: auto;
 	margin: 0 20px;
 	border-radius: 1%;
 }
@@ -126,11 +127,12 @@ body {
 	width: 600px;
 	font-size: 24px;
 	font-style: italic;
+	text-align: center;
 }
 
 #thor {
 	font-weight: bold;
-	text-align: right;
+/*	text-align: right;*/
 	font-size: 16px;
 	font-style: revert;
 }
